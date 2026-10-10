@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "siteName": "PR One Network",
+    "tagline": "[tagline]"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "events": "อีเวนต์",
+    "work": "ผลงาน",
+    "services": "บริการ",
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อ"
+  },
+  "common": {
+    "comingSoon": "PR One — coming soon",
+    "registerFree": "ลงทะเบียนฟรี",
+    "addToCalendar": "เพิ่มลงปฏิทิน",
+    "readMore": "อ่านต่อ",
+    "contactUs": "ติดต่อเรา"
+  }
+}

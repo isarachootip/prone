@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "siteName": "شبكة بي آر ون",
+    "tagline": "[tagline]"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "events": "الفعاليات",
+    "work": "دراسات الحالة",
+    "services": "الخدمات",
+    "about": "من نحن",
+    "contact": "اتصل بنا"
+  },
+  "common": {
+    "comingSoon": "بي آر ون — قريباً",
+    "registerFree": "سجل مجاناً",
+    "addToCalendar": "أضف إلى التقويم",
+    "readMore": "اقرأ المزيد",
+    "contactUs": "تواصل معنا"
+  }
+}

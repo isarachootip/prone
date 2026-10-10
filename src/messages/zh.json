@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "siteName": "PR One Network",
+    "tagline": "[tagline]"
+  },
+  "nav": {
+    "home": "首页",
+    "events": "活动",
+    "work": "成功案例",
+    "services": "专业服务",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "common": {
+    "comingSoon": "PR One — 即将上线",
+    "registerFree": "免费报名",
+    "addToCalendar": "添加到日历",
+    "readMore": "阅读更多",
+    "contactUs": "联系我们"
+  }
+}

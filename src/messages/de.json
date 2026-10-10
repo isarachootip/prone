@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "siteName": "PR One Network",
+    "tagline": "[tagline]"
+  },
+  "nav": {
+    "home": "Startseite",
+    "events": "Events",
+    "work": "Fallstudien",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "comingSoon": "PR One — demnächst verfügbar",
+    "registerFree": "Kostenlos registrieren",
+    "addToCalendar": "Zum Kalender hinzufügen",
+    "readMore": "Weiterlesen",
+    "contactUs": "Kontaktieren Sie uns"
+  }
+}
