@@ -31,4 +31,11 @@ test.describe("Smoke Tests", () => {
       expect(errors).toEqual([]);
     });
   }
+
+  test("loads /admin dashboard or login without crashing", async ({ page }) => {
+    test.setTimeout(60000);
+    const response = await page.goto("/admin", { waitUntil: "domcontentloaded" });
+    expect(response?.ok()).toBeTruthy();
+    await expect(page).toHaveURL(/\/admin/);
+  });
 });
