@@ -28,3 +28,24 @@
 - LINE OA ID + QR, ลิงก์ Facebook / LinkedIn / YouTube / Instagram
 - นโยบายความเป็นส่วนตัว (PDPA)
 - ปลายทางของข้อมูลฟอร์ม (อีเมล / Google Sheets / CRM)
+
+## การพัฒนา (Development)
+
+คำสั่งที่ใช้ในการพัฒนาและทดสอบระบบ:
+
+| คำสั่ง | คำอธิบาย |
+|---|---|
+| `pnpm dev` | รันเซิร์ฟเวอร์สำหรับพัฒนาที่ `http://localhost:3000` |
+| `pnpm build` | คอมไพล์และสร้างโค้ดสำหรับ Production |
+| `pnpm start` | รันเซิร์ฟเวอร์ Production build |
+| `pnpm lint` | ตรวจสอบ syntax และ code quality ด้วย ESLint |
+| `pnpm typecheck` | ตรวจสอบ type safety ด้วย TypeScript (`tsc --noEmit`) |
+| `pnpm check:tokens` | ตรวจสอบว่าไม่มีสีหรือฟอนต์ที่อยู่นอกเหนือ design token |
+| `pnpm check` | รันด่านตรวจทั้ง 4 ตัวรวมกัน (`lint`, `typecheck`, `check:tokens`, `build`) |
+| `pnpm test:e2e` | รันการทดสอบฟังก์ชันพื้นฐาน (Smoke tests) ด้วย Playwright |
+| `pnpm test:visual` | รันการทดสอบ Visual Regression เปรียบเทียบภาพแต่ละ section บน `/en/design` |
+| `pnpm test:visual:update` | อัปเดตภาพ Baseline Snapshot สำหรับ Visual Regression |
+
+> ⚠️ **คำเตือนเรื่อง Visual Regression Snapshot:**  
+> การรันคำสั่ง `pnpm test:visual:update` เพื่อสร้างหรือแก้ไข Baseline Snapshot **จะต้องได้รับความเห็นชอบและอนุมัติจากผู้ดูแล Design System (DS Owner) ก่อนเสมอ** ห้ามอัปเดต snapshot เพื่อกลบความผิดพลาดของ UI โดยไม่ได้รับอนุญาต
+
