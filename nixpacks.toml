@@ -1,0 +1,14 @@
+providers = ["node"]
+
+[phases.setup]
+nixPkgs = ["nodejs_22"]
+cmds = ["npm install -g pnpm@latest"]
+
+[phases.install]
+cmds = ["pnpm install"]
+
+[phases.build]
+cmds = ["pnpm build"]
+
+[start]
+cmd = "pnpm start"
