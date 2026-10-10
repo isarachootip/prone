@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { fontClassNames } from "@/app/fonts";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -40,7 +41,11 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+    <html
+      lang={locale}
+      dir={locale === "ar" ? "rtl" : "ltr"}
+      className={`dark ${fontClassNames}`}
+    >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

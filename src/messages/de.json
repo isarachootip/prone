@@ -17,5 +17,11 @@
     "addToCalendar": "Zum Kalender hinzufügen",
     "readMore": "Weiterlesen",
     "contactUs": "Kontaktieren Sie uns"
+  },
+  "homeDemo": {
+    "title": "PR One — Führende Tech-Event- und PR-Agentur in Thailand",
+    "description": "Spezialisiert auf Gipfeltreffen, Roadshows und IT-Unternehmenskonferenzen.",
+    "establishedYear": "2004",
+    "ctaButton": "Für Event registrieren"
   }
 }

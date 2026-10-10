@@ -17,5 +17,11 @@
     "addToCalendar": "เพิ่มลงปฏิทิน",
     "readMore": "อ่านต่อ",
     "contactUs": "ติดต่อเรา"
+  },
+  "homeDemo": {
+    "title": "PR One — ผู้นำด้านการจัด Tech Event & PR ในประเทศไทย",
+    "description": "เอเจนซีผู้เชี่ยวชาญการจัดสัมมนา Summit และ Roadshow สำหรับกลุ่มธุรกิจ IT และ Enterprise",
+    "establishedYear": "2004",
+    "ctaButton": "ลงทะเบียนเข้าร่วมงาน"
   }
 }

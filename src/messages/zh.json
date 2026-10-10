@@ -17,5 +17,11 @@
     "addToCalendar": "添加到日历",
     "readMore": "阅读更多",
     "contactUs": "联系我们"
+  },
+  "homeDemo": {
+    "title": "PR One — 泰国领先的科技盛会与公关策划机构",
+    "description": "专注于大型峰会、巡回展及企业级IT大会的专业策划代理机构。",
+    "establishedYear": "2004",
+    "ctaButton": "立即报名活动"
   }
 }
