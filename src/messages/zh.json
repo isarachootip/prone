@@ -77,5 +77,59 @@
     "addFriendButton": "在 LINE 上添加好友",
     "scanQrPrompt": "扫描二维码或点击下方按钮",
     "otherChannels": "或关注我们的其他社交平台"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Tech Event & PR Agency",
+      "titleLine1": "助力企业增长与成功",
+      "titleLine2": "打造领先科技盛会与品牌公关",
+      "description": "专注于科技峰会、多城巡回展及企业级公关策划的专业代理机构，自2004年立足曼谷服务全球客户。",
+      "consultCta": "活动策划咨询",
+      "browseEvents": "浏览全部活动"
+    },
+    "sections": {
+      "upcomingEvents": {
+        "eyebrow": "Upcoming Events",
+        "title": "即将举行的科技盛会与研讨会",
+        "description": "参与全球领先IT品牌的高端论坛与专业技术工作坊。",
+        "viewAll": "查看全部活动"
+      },
+      "roadmap": {
+        "eyebrow": "Event Roadmap",
+        "title": "发展历程与未来活动规划",
+        "description": "重温2004年以来的卓越历程，提前预订明年度活动举办排期。",
+        "viewAll": "查看活动路线图"
+      },
+      "services": {
+        "eyebrow": "Our Capabilities",
+        "title": "全方位企业级科技活动服务",
+        "description": "涵盖全流程活动策划、高端媒体传播及高效获客营销。"
+      },
+      "featuredWork": {
+        "eyebrow": "Case Studies",
+        "title": "精选成功案例与里程碑",
+        "description": "与国际科技巨头携手呈现的高水准大会与品牌营销案例。",
+        "viewAll": "查看全部案例"
+      },
+      "stats": {
+        "eyebrow": "Proven Track Record",
+        "title": "逾二十年深厚底蕴与卓越实力",
+        "foundedValue": "2004",
+        "foundedLabel": "曼谷成立年份",
+        "eventsValue": "[จำนวนอีเวนต์]",
+        "eventsLabel": "成功策划执行大型活动",
+        "clientsValue": "[จำนวนแบรนด์]",
+        "clientsLabel": "信赖我们的全球企业客户"
+      },
+      "connect": {
+        "eyebrow": "Stay Connected",
+        "title": "保持联系与获取最新动态"
+      },
+      "contactCta": {
+        "title": "准备好打造您的下一个顶级科技盛会了吗？",
+        "description": "欢迎随时与 PR One 资深策划及制作团队联系交流。",
+        "ctaButton": "立即联系团队"
+      }
+    }
   }
 }

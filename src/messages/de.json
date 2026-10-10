@@ -77,5 +77,59 @@
     "addFriendButton": "Als Freund auf LINE hinzufügen",
     "scanQrPrompt": "Scannen Sie den QR-Code oder klicken Sie auf die Schaltfläche",
     "otherChannels": "Oder folgen Sie unseren weiteren Kanälen"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Tech Event & PR Agentur",
+      "titleLine1": "Unternehmenserfolg vorantreiben mit",
+      "titleLine2": "Führenden Tech-Events & PR",
+      "description": "Spezialisierte Agentur für Technologie-Gipfel, Roadshows und Unternehmens-PR. Gegründet in Bangkok seit 2004.",
+      "consultCta": "Event planen",
+      "browseEvents": "Alle Events ansehen"
+    },
+    "sections": {
+      "upcomingEvents": {
+        "eyebrow": "Upcoming Events",
+        "title": "Kommende Technologiekonferenzen",
+        "description": "Nehmen Sie an erstklassigen Tech-Konferenzen und Fach-Workshops teil.",
+        "viewAll": "Alle Events ansehen"
+      },
+      "roadmap": {
+        "eyebrow": "Event Roadmap",
+        "title": "Veranstaltungsgeschichte und Zukunft",
+        "description": "Von der Gründung 2004 bis zur Terminreservierung für das nächste Jahr.",
+        "viewAll": "Roadmap ansehen"
+      },
+      "services": {
+        "eyebrow": "Unsere Kompetenzen",
+        "title": "Umfassende Enterprise-Event-Services",
+        "description": "Von der Konferenzorganisation über Medienarbeit bis hin zum Marketing."
+      },
+      "featuredWork": {
+        "eyebrow": "Fallstudien",
+        "title": "Ausgewählte Projekte & Meilensteine",
+        "description": "Erfolgreiche Konferenzprojekte für globale Technologieführer.",
+        "viewAll": "Alle Fallstudien ansehen"
+      },
+      "stats": {
+        "eyebrow": "Bewährte Erfolgsbilanz",
+        "title": "Exzellenz seit über zwei Jahrzehnten",
+        "foundedValue": "2004",
+        "foundedLabel": "Gegründet in Bangkok",
+        "eventsValue": "[จำนวนอีเวนต์]",
+        "eventsLabel": "Erfolgreich durchgeführte Events",
+        "clientsValue": "[จำนวนแบรนด์]",
+        "clientsLabel": "Globale Unternehmenskunden"
+      },
+      "connect": {
+        "eyebrow": "In Kontakt bleiben",
+        "title": "Kontakt & Aktuelle Updates"
+      },
+      "contactCta": {
+        "title": "Bereit für Ihr nächstes erstklassiges Tech-Event?",
+        "description": "Planen Sie jetzt gemeinsam mit den Spezialisten von PR One.",
+        "ctaButton": "Jetzt Kontakt aufnehmen"
+      }
+    }
   }
 }
