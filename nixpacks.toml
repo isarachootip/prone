@@ -1,14 +1,17 @@
 providers = ["node"]
 
+# ใช้ pnpm ผ่าน npx แทน global install
+# (npm install -g บน Nix ไม่ได้เพิ่ม bin เข้า PATH -> "pnpm: command not found")
+# และไม่ใช้ corepack ของ Nixpacks (0.24.1 หา pnpm v12 ไม่เจอ -> MODULE_NOT_FOUND)
+
 [phases.setup]
 nixPkgs = ["nodejs_22"]
-cmds = ["npm install -g pnpm@latest"]
 
 [phases.install]
-cmds = ["pnpm install"]
+cmds = ["npx --yes pnpm@12.3.4 install --frozen-lockfile"]
 
 [phases.build]
-cmds = ["pnpm build"]
+cmds = ["npm run build"]
 
 [start]
-cmd = "pnpm start"
+cmd = "npm run start"
