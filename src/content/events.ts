@@ -1,0 +1,64 @@
+import type { Event } from "./types";
+
+export const events: Event[] = [
+  {
+    slug: "upcoming-tech-summit-2026",
+    title: {
+      th: "[ชื่ออีเวนต์ 1]",
+      en: "[Upcoming Event Title 1]",
+    },
+    type: "summit",
+    date: "2026-11-15T09:00:00Z",
+    venue: {
+      th: "[สถานที่จัดงาน 1]",
+      en: "[Event Venue 1]",
+    },
+    client: "[ลูกค้า]",
+    summary: {
+      th: "[สรุปรายละเอียดงานสัมมนาและเทคโนโลยีหลักที่นำเสนอ]",
+      en: "[Summary of summit theme and featured keynote sessions]",
+    },
+    registerUrl: "[URL ลงทะเบียน]",
+    status: "upcoming",
+  },
+  {
+    slug: "enterprise-security-roadshow-2026",
+    title: {
+      th: "[ชื่ออีเวนต์ 2]",
+      en: "[Upcoming Event Title 2]",
+    },
+    type: "roadshow",
+    date: "2026-12-05T09:00:00Z",
+    venue: {
+      th: "[สถานที่จัดงาน 2]",
+      en: "[Event Venue 2]",
+    },
+    client: "[ลูกค้า]",
+    summary: {
+      th: "[สรุปรายละเอียดโรดโชว์และการสาธิตโซลูชัน]",
+      en: "[Summary of roadshow sessions and solution showcases]",
+    },
+    registerUrl: "[URL ลงทะเบียน]",
+    status: "upcoming",
+  },
+  {
+    slug: "cloud-ai-seminar-2027",
+    title: {
+      th: "[ชื่ออีเวนต์ 3]",
+      en: "[Upcoming Event Title 3]",
+    },
+    type: "seminar",
+    date: "2027-01-20T09:00:00Z",
+    venue: {
+      th: "[สถานที่จัดงาน 3]",
+      en: "[Event Venue 3]",
+    },
+    client: "[ลูกค้า]",
+    summary: {
+      th: "[สรุปรายละเอียดสัมมนาองค์กร]",
+      en: "[Summary of enterprise technology seminar]",
+    },
+    registerUrl: "[URL ลงทะเบียน]",
+    status: "upcoming",
+  },
+];
