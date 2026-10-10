@@ -1,0 +1,10 @@
+# ผู้ดูแล Design System ต้องรีวิวทุก PR ที่แตะไฟล์เหล่านี้
+# แทน @your-ds-owner ด้วย GitHub username จริง
+
+/src/app/globals.css        @isarachootip
+/src/components/ui/         @isarachootip
+/src/components/brand/      @isarachootip
+/design/                    @isarachootip
+/AGENTS.md                  @isarachootip
+/.agents/                   @isarachootip
+/scripts/check-tokens.mjs   @isarachootip

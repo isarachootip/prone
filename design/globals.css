@@ -1,0 +1,182 @@
+/*
+ * PR One — Design tokens (shadcn/ui + Tailwind CSS v4)
+ * ----------------------------------------------------
+ * ที่มา: ค่าสีและฟอนต์จาก concept หน้าแรก "Homepage — Tech Events concept"
+ * ผู้ดูแล: Design System Owner (ดู .github/CODEOWNERS)
+ *
+ * กติกา:
+ * 1) ไฟล์นี้เป็นที่เดียวในโปรเจกต์ที่อนุญาตให้มีค่าสี hex
+ * 2) เว็บเป็น dark-first: :root คือธีมหลัก (มืด) และ .dark ใช้ค่าเดียวกัน
+ * 3) ใน shadcn "accent" = สีพื้นตอน hover/focus ของเมนูและปุ่ม ghost
+ *    ไม่ใช่สีแบรนด์ — สีแบรนด์ (lime) คือ "primary" และ "brand"
+ * 4) ถ้าจะเปลี่ยนสีแบรนด์ทั้งเว็บ ให้แก้ --brand ที่เดียว
+ */
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ---- Brand ---- */
+  --brand: #c6f432;              /* lime — สีแบรนด์หลัก */
+  --brand-foreground: #04150a;   /* ตัวอักษรบนพื้น lime */
+  --brand-alt-1: #4cc3ff;        /* sky — ใช้แยกประเภทอีเวนต์เท่านั้น */
+  --brand-alt-2: #ff7a45;        /* orange */
+  --brand-alt-3: #b79cff;        /* violet */
+
+  /* ---- Surfaces ---- */
+  --background: #0b0f17;         /* พื้นหน้าเว็บ */
+  --surface-sunken: #0e1320;     /* แถบ/section ที่ต่ำกว่าพื้น */
+  --card: #121826;               /* การ์ด */
+  --popover: #121a2a;            /* dropdown, dialog */
+  --muted: #1e2738;              /* พื้นช่องรอง, skeleton */
+
+  /* ---- Text ---- */
+  --foreground: #eef2f8;         /* ตัวอักษรหลัก */
+  --foreground-soft: #c4ccda;    /* หัวข้อรอง */
+  --muted-foreground: #8c97ac;   /* คำอธิบาย, meta */
+  --subtle-foreground: #a3aec2;  /* label, caption */
+
+  /* ---- Lines ---- */
+  --border: #222c40;
+  --border-strong: #3a4766;
+  --input: #2a3550;
+  --ring: var(--brand);
+
+  /* ---- shadcn semantic tokens ---- */
+  --card-foreground: var(--foreground);
+  --popover-foreground: var(--foreground);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: #1e2738;
+  --secondary-foreground: var(--foreground);
+  --accent: #1e2738;             /* hover/focus background (ไม่ใช่สีแบรนด์) */
+  --accent-foreground: var(--foreground);
+  --destructive: #ff5c5c;
+  --destructive-foreground: #1a0505;
+
+  /* ---- Charts ---- */
+  --chart-1: var(--brand);
+  --chart-2: var(--brand-alt-1);
+  --chart-3: var(--brand-alt-2);
+  --chart-4: var(--brand-alt-3);
+  --chart-5: var(--foreground-soft);
+
+  /* ---- Sidebar (เผื่อใช้ component sidebar ของ shadcn) ---- */
+  --sidebar: var(--surface-sunken);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: var(--brand-foreground);
+  --sidebar-accent: var(--accent);
+  --sidebar-accent-foreground: var(--accent-foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+
+  /* ---- Shape ----
+   * --radius = 12px → rounded-sm 8px · rounded-md 10px · rounded-lg 12px · rounded-xl 16px
+   * ปุ่ม, badge, filter chip ใช้ rounded-full (pill) ตาม concept
+   */
+  --radius: 0.75rem;
+
+  /* ---- Motion ---- */
+  --ease-brand: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 240ms;
+
+  color-scheme: dark;
+}
+
+/* dark-first: .dark ใช้ค่าเดียวกับ :root (ไม่มีธีมสว่างในเฟสนี้) */
+.dark {
+  color-scheme: dark;
+}
+
+@theme inline {
+  /* ---- Fonts (ตัวแปรมาจาก next/font ใน src/app/[locale]/layout.tsx) ---- */
+  --font-sans: var(--font-plex-sans), var(--font-plex-thai), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-plex-thai), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+
+  /* ---- Colors → Tailwind utilities (bg-*, text-*, border-*) ---- */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-foreground-soft: var(--foreground-soft);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-alt-1: var(--brand-alt-1);
+  --color-brand-alt-2: var(--brand-alt-2);
+  --color-brand-alt-3: var(--brand-alt-3);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* ---- Radius ---- */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 10px);
+
+  /* ---- Motion ---- */
+  --ease-brand: var(--ease-brand);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    /* ภาษาไทยต้องการ line-height สูงกว่าอังกฤษเล็กน้อย */
+    line-height: 1.65;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-foreground tracking-tight;
+    line-height: 1.2;
+  }
+  ::selection {
+    background: var(--brand);
+    color: var(--brand-foreground);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
