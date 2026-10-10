@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { hasLocale } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { fontClassNames } from "@/app/fonts";
+import { SiteHeader, SiteFooter } from "@/components/brand";
+import { siteConfig } from "@/content/site";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -39,6 +41,7 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <html
@@ -46,7 +49,13 @@ export default async function LocaleLayout({
       dir={locale === "ar" ? "rtl" : "ltr"}
       className={`dark ${fontClassNames}`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col bg-background text-foreground">
+        <NextIntlClientProvider messages={messages}>
+          <SiteHeader />
+          <main className="flex-1">{children}</main>
+          <SiteFooter config={siteConfig} />
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }

@@ -9,14 +9,22 @@
     "work": "ผลงาน",
     "services": "บริการ",
     "about": "เกี่ยวกับเรา",
-    "contact": "ติดต่อ"
+    "contact": "ติดต่อ",
+    "consultCta": "ปรึกษาจัดงาน"
+  },
+  "footer": {
+    "allRightsReserved": "สงวนลิขสิทธิ์ทั้งหมด",
+    "registeredAddress": "ที่อยู่สำนักงาน",
+    "quickLinks": "เมนูลัด",
+    "contactTitle": "ติดต่อทีมงาน"
   },
   "common": {
     "comingSoon": "PR One — coming soon",
     "registerFree": "ลงทะเบียนฟรี",
     "addToCalendar": "เพิ่มลงปฏิทิน",
     "readMore": "อ่านต่อ",
-    "contactUs": "ติดต่อเรา"
+    "contactUs": "ติดต่อเรา",
+    "menu": "เมนู"
   },
   "homeDemo": {
     "title": "PR One — ผู้นำด้านการจัด Tech Event & PR ในประเทศไทย",

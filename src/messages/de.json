@@ -9,14 +9,22 @@
     "work": "Fallstudien",
     "services": "Dienstleistungen",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "consultCta": "Event planen"
+  },
+  "footer": {
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "registeredAddress": "Eingetragener Sitz",
+    "quickLinks": "Schnellzugriff",
+    "contactTitle": "Kontakt aufnehmen"
   },
   "common": {
     "comingSoon": "PR One — demnächst verfügbar",
     "registerFree": "Kostenlos registrieren",
     "addToCalendar": "Zum Kalender hinzufügen",
     "readMore": "Weiterlesen",
-    "contactUs": "Kontaktieren Sie uns"
+    "contactUs": "Kontaktieren Sie uns",
+    "menu": "Menü"
   },
   "homeDemo": {
     "title": "PR One — Führende Tech-Event- und PR-Agentur in Thailand",

@@ -9,14 +9,22 @@
     "work": "دراسات الحالة",
     "services": "الخدمات",
     "about": "من نحن",
-    "contact": "اتصل بنا"
+    "contact": "اتصل بنا",
+    "consultCta": "استشرنا لتنظيم فعاليتك"
+  },
+  "footer": {
+    "allRightsReserved": "جميع الحقوق محفوظة.",
+    "registeredAddress": "المقر المسجل",
+    "quickLinks": "روابط سريعة",
+    "contactTitle": "تواصل مع فريقنا"
   },
   "common": {
     "comingSoon": "بي آر ون — قريباً",
     "registerFree": "سجل مجاناً",
     "addToCalendar": "أضف إلى التقويم",
     "readMore": "اقرأ المزيد",
-    "contactUs": "تواصل معنا"
+    "contactUs": "تواصل معنا",
+    "menu": "القائمة"
   },
   "homeDemo": {
     "title": "بي آر ون — الوكالة الرائدة في تنظيم الفعاليات التقنية والعلاقات العامة في تايلاند",

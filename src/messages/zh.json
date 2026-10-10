@@ -9,14 +9,22 @@
     "work": "成功案例",
     "services": "专业服务",
     "about": "关于我们",
-    "contact": "联系我们"
+    "contact": "联系我们",
+    "consultCta": "活动策划咨询"
+  },
+  "footer": {
+    "allRightsReserved": "版权所有，保留所有权利。",
+    "registeredAddress": "注册办公地址",
+    "quickLinks": "快捷链接",
+    "contactTitle": "联系团队"
   },
   "common": {
     "comingSoon": "PR One — 即将上线",
     "registerFree": "免费报名",
     "addToCalendar": "添加到日历",
     "readMore": "阅读更多",
-    "contactUs": "联系我们"
+    "contactUs": "联系我们",
+    "menu": "菜单"
   },
   "homeDemo": {
     "title": "PR One — 泰国领先的科技盛会与公关策划机构",
