@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17" />
+      <stop offset="50%" stop-color="#141a24" />
+      <stop offset="100%" stop-color="#070a0e" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#d4ff00" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#d4ff00" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg1)" />
+  <rect width="1200" height="800" fill="url(#glow1)" />
+  <g opacity="0.15">
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#ffffff" stroke-dasharray="8 8" />
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#ffffff" stroke-dasharray="8 8" />
+    <line x1="0" y1="600" x2="1200" y2="600" stroke="#ffffff" stroke-dasharray="8 8" />
+    <line x1="300" y1="0" x2="300" y2="800" stroke="#ffffff" stroke-dasharray="8 8" />
+    <line x1="600" y1="0" x2="600" y2="800" stroke="#ffffff" stroke-dasharray="8 8" />
+    <line x1="900" y1="0" x2="900" y2="800" stroke="#ffffff" stroke-dasharray="8 8" />
+  </g>
+  <!-- Stage & LED Screen Frame -->
+  <rect x="250" y="160" width="700" height="340" rx="16" fill="#18202d" stroke="#d4ff00" stroke-width="2" stroke-opacity="0.6" />
+  <path d="M 350 330 L 450 250 L 550 310 L 700 220 L 850 330" stroke="#d4ff00" stroke-width="3" fill="none" opacity="0.8" />
+  <circle cx="700" cy="220" r="6" fill="#d4ff00" />
+  <circle cx="450" cy="250" r="6" fill="#d4ff00" />
+  <!-- Speaker & Stage Podium -->
+  <polygon points="560,540 640,540 660,620 540,620" fill="#20293a" />
+  <circle cx="600" cy="500" r="16" fill="#d4ff00" opacity="0.9" />
+  <text x="600" y="710" font-family="monospace" font-size="20" fill="#94a3b8" text-anchor="middle" letter-spacing="4">PR ONE · MAIN KEYNOTE STAGE</text>
+</svg>

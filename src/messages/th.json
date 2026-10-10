@@ -63,6 +63,39 @@
     "viewAll": "ดูผลงานทั้งหมด",
     "keyResults": "ผลลัพธ์สำคัญ"
   },
+  "work": {
+    "eyebrow": "Our Portfolio",
+    "title": "ผลงานและความสำเร็จที่เราภาคภูมิใจ",
+    "description": "รวบรวมงานสัมมนา งานเปิดตัว และ Tech Event ระดับองค์กรที่ PR One ได้ร่วมสร้างสรรค์ตั้งแต่ปี 2004",
+    "filterEventType": "ประเภทอีเวนต์",
+    "filterIndustry": "กลุ่มอุตสาหกรรม",
+    "emptyState": "ไม่พบผลงานที่ตรงกับเงื่อนไขการค้นหา",
+    "all": "ทั้งหมด",
+    "industries": {
+      "all": "ทุกอุตสาหกรรม",
+      "tech": "เทคโนโลยี & ซอฟต์แวร์",
+      "enterprise": "องค์กร & ธุรกิจ",
+      "consumer": "สินค้าอุปโภคบริโภค",
+      "government": "ภาครัฐ & สถาบัน"
+    }
+  },
+  "caseStudyDetail": {
+    "backToWork": "ย้อนกลับไปหน้าผลงาน",
+    "clientLabel": "ลูกค้า",
+    "yearLabel": "ปีที่จัดงาน",
+    "typeLabel": "ประเภทงาน",
+    "challengeTitle": "ความท้าทาย",
+    "whatWeDidTitle": "สิ่งที่เราทำ",
+    "resultsTitle": "ผลลัพธ์ที่วัดผลได้",
+    "galleryTitle": "ภาพบรรยากาศงาน",
+    "gallerySubtitle": "คลิกที่ภาพเพื่อเปิดดูขนาดใหญ่",
+    "galleryEmpty": "ไม่มีรูปภาพเพิ่มเติมสำหรับผลงานนี้",
+    "relatedTitle": "ผลงานอื่นๆ ที่น่าสนใจ",
+    "relatedEyebrow": "Case Studies",
+    "lightboxClose": "ปิดหน้าต่างรูปภาพ",
+    "lightboxPrev": "รูปก่อนหน้า",
+    "lightboxNext": "รูปถัดไป"
+  },
   "newsletter": {
     "title": "รับข่าวสารเทคโนโลยีและอีเวนต์",
     "description": "อัปเดตงานสัมมนา เทรนด์ไอที และสิทธิพิเศษในการลงทะเบียนก่อนใคร",

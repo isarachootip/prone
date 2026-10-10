@@ -63,6 +63,39 @@
     "viewAll": "Alle Fallstudien ansehen",
     "keyResults": "Hauptergebnisse"
   },
+  "work": {
+    "eyebrow": "Unser Portfolio",
+    "title": "Ausgewählte Projekte & Nachweisbare Erfolge",
+    "description": "Ein sorgfältig kuratiertes Portfolio an Gipfeltreffen, Konferenzen und Roadshows von PR One Network seit 2004.",
+    "filterEventType": "Event-Typ",
+    "filterIndustry": "Branche",
+    "emptyState": "Keine Fallstudien gefunden.",
+    "all": "Alle",
+    "industries": {
+      "all": "Alle Branchen",
+      "tech": "Technologie & Software",
+      "enterprise": "Unternehmen & Konzerne",
+      "consumer": "Konsumgüter & Handel",
+      "government": "Öffentlicher Sektor"
+    }
+  },
+  "caseStudyDetail": {
+    "backToWork": "Zurück zur Übersicht",
+    "clientLabel": "Kunde",
+    "yearLabel": "Jahr",
+    "typeLabel": "Event-Typ",
+    "challengeTitle": "Die Herausforderung",
+    "whatWeDidTitle": "Unsere Leistung",
+    "resultsTitle": "Messbare Erfolge",
+    "galleryTitle": "Bildergalerie",
+    "gallerySubtitle": "Klicken zum Vergrößern",
+    "galleryEmpty": "Keine weiteren Bilder vorhanden.",
+    "relatedTitle": "Weitere Fallstudien",
+    "relatedEyebrow": "Fallstudien",
+    "lightboxClose": "Schließen",
+    "lightboxPrev": "Vorheriges Bild",
+    "lightboxNext": "Nächstes Bild"
+  },
   "newsletter": {
     "title": "Bleiben Sie informiert über Tech-Events",
     "description": "Erhalten Sie exklusive Einladungen und Updates zu IT-Gipfeltreffen.",

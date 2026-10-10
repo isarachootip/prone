@@ -63,6 +63,39 @@
     "viewAll": "查看全部案例",
     "keyResults": "核心成效"
   },
+  "work": {
+    "eyebrow": "精选案例",
+    "title": "精选项目与卓越成效",
+    "description": "汇聚 PR One Network 自 2004 年以来精心打造的峰会、大型研讨会与企业巡展案例。",
+    "filterEventType": "活动类型",
+    "filterIndustry": "所属行业",
+    "emptyState": "没有找到符合条件的案例研究。",
+    "all": "全部",
+    "industries": {
+      "all": "全部行业",
+      "tech": "科技与软件",
+      "enterprise": "大型企业与商务",
+      "consumer": "消费品与零售",
+      "government": "公共机构"
+    }
+  },
+  "caseStudyDetail": {
+    "backToWork": "返回案例列表",
+    "clientLabel": "客户",
+    "yearLabel": "年份",
+    "typeLabel": "活动类型",
+    "challengeTitle": "项目挑战",
+    "whatWeDidTitle": "我们的交付方案",
+    "resultsTitle": "量化成效",
+    "galleryTitle": "现场精彩图集",
+    "gallerySubtitle": "点击图片查看大图",
+    "galleryEmpty": "该案例暂无更多图片。",
+    "relatedTitle": "相关案例推荐",
+    "relatedEyebrow": "案例精选",
+    "lightboxClose": "关闭图集",
+    "lightboxPrev": "上一张",
+    "lightboxNext": "下一张"
+  },
   "newsletter": {
     "title": "获取最新科技盛会与行业资讯",
     "description": "优先获取技术峰会动态及专属参会名额。",

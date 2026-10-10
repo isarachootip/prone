@@ -4,6 +4,9 @@ import {
   getEventsByYear,
   getFeaturedCaseStudies,
   getCaseStudy,
+  getAllCaseStudies,
+  getRelatedCaseStudies,
+  getCaseStudyIndustry,
   clients,
   siteConfig,
   caseStudies,
@@ -64,6 +67,34 @@ describe("Content Model & Query Helpers", () => {
     it("returns undefined for unknown slug", () => {
       const notFound = getCaseStudy("non-existent-event-slug");
       expect(notFound).toBeUndefined();
+    });
+  });
+
+  describe("getAllCaseStudies", () => {
+    it("returns all case studies sorted by year descending", () => {
+      const all = getAllCaseStudies();
+      expect(all.length).toBe(caseStudies.length);
+      for (let i = 0; i < all.length - 1; i++) {
+        expect(all[i].year).toBeGreaterThanOrEqual(all[i + 1].year);
+      }
+    });
+  });
+
+  describe("getRelatedCaseStudies", () => {
+    it("excludes the current case study and limits results", () => {
+      const related = getRelatedCaseStudies("uipath-fusion-summit-bangkok", 2);
+      expect(related.length).toBeLessThanOrEqual(2);
+      expect(related.every((cs) => cs.slug !== "uipath-fusion-summit-bangkok")).toBe(true);
+    });
+  });
+
+  describe("getCaseStudyIndustry", () => {
+    it("returns mapped or looked up industry correctly", () => {
+      const csTech = caseStudies.find((c) => c.client === "UiPath")!;
+      expect(getCaseStudyIndustry(csTech)).toBe("tech");
+
+      const csConsumer = caseStudies.find((c) => c.client === "Benz BKK")!;
+      expect(getCaseStudyIndustry(csConsumer)).toBe("consumer");
     });
   });
 

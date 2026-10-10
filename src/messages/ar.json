@@ -63,6 +63,39 @@
     "viewAll": "عرض جميع دراسات الحالة",
     "keyResults": "النتائج الرئيسية"
   },
+  "work": {
+    "eyebrow": "أعمالنا",
+    "title": "مشاريع مميزة ونتائج مثبتة",
+    "description": "محفظة مختارة من القمم والمؤتمرات والجولات التعريفية التي نظمتها PR One Network منذ عام 2004.",
+    "filterEventType": "نوع الفعالية",
+    "filterIndustry": "القطاع",
+    "emptyState": "لم يتم العثور على دراسات حالة مطابقة.",
+    "all": "الكل",
+    "industries": {
+      "all": "جميع القطاعات",
+      "tech": "التكنولوجيا والبرمجيات",
+      "enterprise": "المؤسسات والشركات",
+      "consumer": "السلع الاستهلاكية",
+      "government": "القطاع الحكومي"
+    }
+  },
+  "caseStudyDetail": {
+    "backToWork": "العودة إلى جميع الأعمال",
+    "clientLabel": "العميل",
+    "yearLabel": "السنة",
+    "typeLabel": "نوع الفعالية",
+    "challengeTitle": "التحدي",
+    "whatWeDidTitle": "ما قدمناه",
+    "resultsTitle": "نتائج قابلة للقياس",
+    "galleryTitle": "معرض صور الفعالية",
+    "gallerySubtitle": "انقر على أي صورة للتكبير",
+    "galleryEmpty": "لا توجد صور إضافية لهذه الفعالية.",
+    "relatedTitle": "دراسات حالة ذات صلة",
+    "relatedEyebrow": "دراسات حالة",
+    "lightboxClose": "إغلاق",
+    "lightboxPrev": "الصورة السابقة",
+    "lightboxNext": "الصورة التالية"
+  },
   "newsletter": {
     "title": "ابقَ على اطلاع بأحدث الفعاليات التقنية",
     "description": "احصل على دعوات حصرية وتحديثات حول مؤتمرات تقنية المعلومات.",

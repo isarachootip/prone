@@ -63,6 +63,39 @@
     "viewAll": "View All Case Studies",
     "keyResults": "Key Results"
   },
+  "work": {
+    "eyebrow": "Our Portfolio",
+    "title": "Featured Projects & Proven Results",
+    "description": "A curated portfolio of summits, conferences, and enterprise roadshows crafted by PR One Network since 2004.",
+    "filterEventType": "Event Type",
+    "filterIndustry": "Industry",
+    "emptyState": "No case studies match the selected filters.",
+    "all": "All",
+    "industries": {
+      "all": "All Industries",
+      "tech": "Technology & Software",
+      "enterprise": "Enterprise & Corporate",
+      "consumer": "Consumer & Retail",
+      "government": "Public Sector & Institutions"
+    }
+  },
+  "caseStudyDetail": {
+    "backToWork": "Back to all case studies",
+    "clientLabel": "Client",
+    "yearLabel": "Year",
+    "typeLabel": "Event Type",
+    "challengeTitle": "The Challenge",
+    "whatWeDidTitle": "What We Delivered",
+    "resultsTitle": "Measurable Impact",
+    "galleryTitle": "Event Gallery",
+    "gallerySubtitle": "Click any photo to enlarge",
+    "galleryEmpty": "No additional photos for this case study.",
+    "relatedTitle": "Related Case Studies",
+    "relatedEyebrow": "Case Studies",
+    "lightboxClose": "Close lightbox",
+    "lightboxPrev": "Previous photo",
+    "lightboxNext": "Next photo"
+  },
   "newsletter": {
     "title": "Stay Ahead with Tech Events & Insights",
     "description": "Get exclusive invitations, tech summits updates, and priority event registration.",

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c0e14" />
+      <stop offset="50%" stop-color="#121824" />
+      <stop offset="100%" stop-color="#080a0f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg3)" />
+  <!-- Lounge Tables & Networking Hub -->
+  <g opacity="0.8">
+    <ellipse cx="600" cy="460" rx="380" ry="120" fill="#131c2a" stroke="#d4ff00" stroke-width="1.5" stroke-dasharray="6 6" />
+    <circle cx="380" cy="440" r="30" fill="#1e293b" stroke="#334155" />
+    <circle cx="600" cy="410" r="36" fill="#1e293b" stroke="#d4ff00" />
+    <circle cx="820" cy="440" r="30" fill="#1e293b" stroke="#334155" />
+  </g>
+  <text x="600" y="660" font-family="monospace" font-size="20" fill="#94a3b8" text-anchor="middle" letter-spacing="4">VIP NETWORKING &amp; PARTNER LOUNGE</text>
+</svg>
