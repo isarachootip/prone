@@ -31,5 +31,51 @@
     "description": "وكالة متخصصةใน مؤتمرات القمة والجولات التعريفية وفعاليات تقنية المعلومات للشركات.",
     "establishedYear": "2004",
     "ctaButton": "سجل لحضور الفعالية"
+  },
+  "events": {
+    "types": {
+      "all": "الكل",
+      "seminar": "ندوة",
+      "summit": "قمة",
+      "roadshow": "جولة تعريفية",
+      "workshop": "ورشة عمل"
+    },
+    "nextOnStage": "Next on stage",
+    "registerFree": "سجل مجاناً",
+    "addToCalendar": "+ التقويم",
+    "downloadIcs": "تحميل .ics (Apple / Outlook)",
+    "googleCalendar": "تقويم Google",
+    "countdown": {
+      "days": "أيام",
+      "hours": "ساعات",
+      "minutes": "دقائق",
+      "seconds": "ثواني",
+      "srText": "الوقت المتبقي: {days} أيام، {hours} ساعات، {minutes} دقائق، {seconds} ثواني"
+    },
+    "openSlotTitle": "Open slot — احجز موعد فعاليتك القادمة",
+    "openSlotDescription": "خطط مسبقاً لندوتك أو مؤتمرك للعام القادم، استشر فريق بي آر ون اليوم.",
+    "bookDate": "احجز الموعد الآن",
+    "noEvents": "لا توجد فعاليات مسجلة لهذا العام حتى الآن.",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "caseStudy": {
+    "featured": "أبرز الأعمال",
+    "viewAll": "عرض جميع دراسات الحالة",
+    "keyResults": "النتائج الرئيسية"
+  },
+  "newsletter": {
+    "title": "ابقَ على اطلاع بأحدث الفعاليات التقنية",
+    "description": "احصل على دعوات حصرية وتحديثات حول مؤتمرات تقنية المعلومات.",
+    "placeholder": "أدخل بريدك الإلكتروني المهني",
+    "subscribeButton": "اشتراك",
+    "successToast": "تم الاشتراك بنجاحใน نشرتنا البريدية!",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح"
+  },
+  "lineConnect": {
+    "title": "تواصل معنا عبر LINE",
+    "description": "استفسر عن باقات الفعاليات أو احجز موعد استشارة مع فريقنا مباشرة.",
+    "addFriendButton": "إضافة كصديق على LINE",
+    "scanQrPrompt": "امسح رمز الاستجابة السريعة أو اضغط على الزر أدناه",
+    "otherChannels": "أو تابعنا عبر قنوات التواصل الأخرى"
   }
 }

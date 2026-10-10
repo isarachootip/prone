@@ -31,5 +31,51 @@
     "description": "เอเจนซีผู้เชี่ยวชาญการจัดสัมมนา Summit และ Roadshow สำหรับกลุ่มธุรกิจ IT และ Enterprise",
     "establishedYear": "2004",
     "ctaButton": "ลงทะเบียนเข้าร่วมงาน"
+  },
+  "events": {
+    "types": {
+      "all": "ทั้งหมด",
+      "seminar": "สัมมนา",
+      "summit": "ซัมมิท",
+      "roadshow": "โรดโชว์",
+      "workshop": "เวิร์กช็อป"
+    },
+    "nextOnStage": "Next on stage",
+    "registerFree": "ลงทะเบียนฟรี",
+    "addToCalendar": "+ ปฏิทิน",
+    "downloadIcs": "ดาวน์โหลด .ics (Apple / Outlook)",
+    "googleCalendar": "Google Calendar",
+    "countdown": {
+      "days": "วัน",
+      "hours": "ชม.",
+      "minutes": "นาที",
+      "seconds": "วิ",
+      "srText": "เหลือเวลาอีก {days} วัน {hours} ชั่วโมง {minutes} นาที {seconds} วินาที"
+    },
+    "openSlotTitle": "Open slot — จองวันจัดงานของคุณ",
+    "openSlotDescription": "วางแผนงานสัมมนาหรือโรดโชว์ล่วงหน้าสำหรับปีหน้า ปรึกษาทีมงาน PR One ได้ทันที",
+    "bookDate": "ติดต่อจองวันจัดงาน",
+    "noEvents": "ยังไม่มีอีเวนต์ที่บันทึกไว้สำหรับปีนี้",
+    "viewDetails": "ดูรายละเอียด"
+  },
+  "caseStudy": {
+    "featured": "ผลงานเด่น",
+    "viewAll": "ดูผลงานทั้งหมด",
+    "keyResults": "ผลลัพธ์สำคัญ"
+  },
+  "newsletter": {
+    "title": "รับข่าวสารเทคโนโลยีและอีเวนต์",
+    "description": "อัปเดตงานสัมมนา เทรนด์ไอที และสิทธิพิเศษในการลงทะเบียนก่อนใคร",
+    "placeholder": "กรอกอีเมลของคุณ",
+    "subscribeButton": "ติดตามข่าวสาร",
+    "successToast": "ลงทะเบียนรับข่าวสารเรียบร้อยแล้ว!",
+    "invalidEmail": "กรุณากรอกอีเมลที่ถูกต้อง"
+  },
+  "lineConnect": {
+    "title": "พูดคุยกับเราผ่าน LINE",
+    "description": "สอบถามแพ็กเกจจัดงาน นัดหมาย หรือปรึกษาทีมงานได้รวดเร็วทันใจ",
+    "addFriendButton": "เพิ่มเพื่อนทาง LINE",
+    "scanQrPrompt": "สแกน QR Code หรือกดปุ่มด้านล่าง",
+    "otherChannels": "หรือติดตามช่องทางโซเชียลอื่นๆ"
   }
 }

@@ -31,5 +31,51 @@
     "description": "Leading agency specializing in summits, roadshows, and enterprise IT conferences.",
     "establishedYear": "2004",
     "ctaButton": "Register for Event"
+  },
+  "events": {
+    "types": {
+      "all": "All",
+      "seminar": "Seminar",
+      "summit": "Summit",
+      "roadshow": "Roadshow",
+      "workshop": "Workshop"
+    },
+    "nextOnStage": "Next on stage",
+    "registerFree": "Register Free",
+    "addToCalendar": "+ Calendar",
+    "downloadIcs": "Download .ics (Apple / Outlook)",
+    "googleCalendar": "Google Calendar",
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Mins",
+      "seconds": "Secs",
+      "srText": "Time remaining: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds"
+    },
+    "openSlotTitle": "Open slot — Reserve Your Event Date",
+    "openSlotDescription": "Plan your seminar or roadshow for next year in advance. Speak with the PR One team today.",
+    "bookDate": "Reserve Date",
+    "noEvents": "No events scheduled for this year yet.",
+    "viewDetails": "View Details"
+  },
+  "caseStudy": {
+    "featured": "Featured Work",
+    "viewAll": "View All Case Studies",
+    "keyResults": "Key Results"
+  },
+  "newsletter": {
+    "title": "Stay Ahead with Tech Events & Insights",
+    "description": "Get exclusive invitations, tech summits updates, and priority event registration.",
+    "placeholder": "Enter your work email",
+    "subscribeButton": "Subscribe",
+    "successToast": "You have successfully subscribed to our newsletter!",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "lineConnect": {
+    "title": "Connect with Us on LINE",
+    "description": "Inquire about event packages, schedule consultations, or reach out to our team instantly.",
+    "addFriendButton": "Add Friend on LINE",
+    "scanQrPrompt": "Scan the QR code or click the button below",
+    "otherChannels": "Or follow our other social channels"
   }
 }

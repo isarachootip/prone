@@ -31,5 +31,51 @@
     "description": "Spezialisiert auf Gipfeltreffen, Roadshows und IT-Unternehmenskonferenzen.",
     "establishedYear": "2004",
     "ctaButton": "Für Event registrieren"
+  },
+  "events": {
+    "types": {
+      "all": "Alle",
+      "seminar": "Seminar",
+      "summit": "Gipfel",
+      "roadshow": "Roadshow",
+      "workshop": "Workshop"
+    },
+    "nextOnStage": "Next on stage",
+    "registerFree": "Kostenlos registrieren",
+    "addToCalendar": "+ Kalender",
+    "downloadIcs": ".ics herunterladen (Apple / Outlook)",
+    "googleCalendar": "Google Kalender",
+    "countdown": {
+      "days": "Tage",
+      "hours": "Std.",
+      "minutes": "Min.",
+      "seconds": "Sek.",
+      "srText": "Verbleibende Zeit: {days} Tage, {hours} Stunden, {minutes} Minuten, {seconds} Sekunden"
+    },
+    "openSlotTitle": "Open slot — Reservieren Sie Ihren Veranstaltungstermin",
+    "openSlotDescription": "Planen Sie Ihr Seminar oder Ihre Roadshow für das nächste Jahr im Voraus mit PR One.",
+    "bookDate": "Termin anfragen",
+    "noEvents": "Für dieses Jahr sind noch keine Veranstaltungen eingetragen.",
+    "viewDetails": "Details anzeigen"
+  },
+  "caseStudy": {
+    "featured": "Ausgewählte Projekte",
+    "viewAll": "Alle Fallstudien ansehen",
+    "keyResults": "Hauptergebnisse"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie informiert über Tech-Events",
+    "description": "Erhalten Sie exklusive Einladungen und Updates zu IT-Gipfeltreffen.",
+    "placeholder": "Geben Sie Ihre Arbeits-E-Mail ein",
+    "subscribeButton": "Abonnieren",
+    "successToast": "Erfolgreich für den Newsletter angemeldet!",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+  },
+  "lineConnect": {
+    "title": "Verbinden Sie sich mit uns auf LINE",
+    "description": "Fragen Sie Event-Pakete an oder vereinbaren Sie direkt ein Beratungsgespräch.",
+    "addFriendButton": "Als Freund auf LINE hinzufügen",
+    "scanQrPrompt": "Scannen Sie den QR-Code oder klicken Sie auf die Schaltfläche",
+    "otherChannels": "Oder folgen Sie unseren weiteren Kanälen"
   }
 }

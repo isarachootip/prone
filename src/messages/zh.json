@@ -31,5 +31,51 @@
     "description": "专注于大型峰会、巡回展及企业级IT大会的专业策划代理机构。",
     "establishedYear": "2004",
     "ctaButton": "立即报名活动"
+  },
+  "events": {
+    "types": {
+      "all": "全部",
+      "seminar": "研讨会",
+      "summit": "峰会",
+      "roadshow": "巡回展",
+      "workshop": "工作坊"
+    },
+    "nextOnStage": "Next on stage",
+    "registerFree": "免费报名",
+    "addToCalendar": "+ 日历",
+    "downloadIcs": "下载 .ics (Apple / Outlook)",
+    "googleCalendar": "谷歌日历",
+    "countdown": {
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分",
+      "seconds": "秒",
+      "srText": "剩余时间：{days}天 {hours}小时 {minutes}分 {seconds}秒"
+    },
+    "openSlotTitle": "Open slot — 预订您的活动举办日期",
+    "openSlotDescription": "提前为您明年的研讨会或巡回展制定计划，欢迎随时咨询 PR One 团队。",
+    "bookDate": "立即预订日期",
+    "noEvents": "今年暂无计划中的活动。",
+    "viewDetails": "查看详情"
+  },
+  "caseStudy": {
+    "featured": "精选案例",
+    "viewAll": "查看全部案例",
+    "keyResults": "核心成效"
+  },
+  "newsletter": {
+    "title": "获取最新科技盛会与行业资讯",
+    "description": "优先获取技术峰会动态及专属参会名额。",
+    "placeholder": "请输入您的工作邮箱",
+    "subscribeButton": "订阅资讯",
+    "successToast": "您已成功订阅我们的资讯！",
+    "invalidEmail": "请输入有效的电子邮箱地址"
+  },
+  "lineConnect": {
+    "title": "通过 LINE 与我们沟通",
+    "description": "咨询活动策划方案、预约会议，或即时与我们的团队取得联系。",
+    "addFriendButton": "在 LINE 上添加好友",
+    "scanQrPrompt": "扫描二维码或点击下方按钮",
+    "otherChannels": "或关注我们的其他社交平台"
   }
 }
