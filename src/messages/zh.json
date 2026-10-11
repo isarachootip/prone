@@ -214,5 +214,88 @@
         "ctaButton": "立即联系团队"
       }
     }
+  },
+  "servicesPage": {
+    "eyebrow": "Our Capabilities",
+    "title": "助力科技活动圆满成功的全方位专业服务",
+    "description": "端到端活动战略统筹、高管媒体公关以及针对企业科技决策者的整合营销战役。",
+    "itemsTitle": "核心服务内容",
+    "relatedWorkTitle": "精选相关案例",
+    "allServicesTitle": "五大核心业务板块"
+  },
+  "aboutPage": {
+    "eyebrow": "About PR One",
+    "title": "全球科技企业值得信赖的活动与公关长期合作伙伴",
+    "positioning": "PR One Network Co., Ltd. 成立于 2004 年，是曼谷领先的企业级科技活动与公关传播机构。我们凭借高水准的峰会策划和媒体传播，助力跨国科技品牌深度链接泰国本土高管决策层。",
+    "historyEyebrow": "2004 – Present",
+    "historyTitle": "逾二十年卓越沉淀与深厚行业信任",
+    "historyText": "公司于 2004 年在曼谷由资深科技传播专家创立，与全球前沿科技发展并肩成长。我们深谙科技语言，精通高管圈层沟通，追求零瑕疵的极致执行标准。",
+    "clientsEyebrow": "Trusted By",
+    "clientsTitle": "信赖 PR One 的全球科技创新先锋",
+    "clientsDescription": "我们倍感荣幸能成为全球顶尖科技品牌在泰国举办峰会及媒体发布的重要伙伴。",
+    "teamEyebrow": "Our Team",
+    "teamTitle": "资深专业团队",
+    "teamNotice": "[ทีมงานผู้เชี่ยวชาญ — ข้อมูลและภาพถ่ายผู้บริหารอยู่ระหว่างการจัดเตรียม]"
+  },
+  "contactPage": {
+    "eyebrow": "Contact Us",
+    "title": "携手策划您的下一场高水准科技活动",
+    "description": "与 PR One 策划团队预约咨询，量身定制专属方案，共同打造驱动业务增长的峰会与传播项目。",
+    "quickChannels": {
+      "title": "快捷联系通道",
+      "lineTitle": "LINE Official Account",
+      "lineAction": "通过 LINE OA 在线沟通",
+      "phoneTitle": "服务热线",
+      "emailTitle": "咨询邮箱"
+    },
+    "location": {
+      "title": "曼谷总部地址",
+      "openMaps": "在谷歌地图中查看"
+    },
+    "form": {
+      "title": "活动需求登记表 (Event Brief)",
+      "description": "请填写您的基本需求，我们的专业团队将在 1 个工作日内与您取得联系并提供初步建议。",
+      "fullName": "姓名",
+      "fullNamePlaceholder": "请输入您的姓名",
+      "company": "企业 / 机构名称",
+      "companyPlaceholder": "例如：科技创新有限公司",
+      "email": "商务邮箱",
+      "emailPlaceholder": "name@company.com",
+      "phone": "联系电话",
+      "phonePlaceholder": "08x-xxx-xxxx",
+      "eventType": "活动类型",
+      "eventTypePlaceholder": "请选择活动类型",
+      "targetDate": "拟定举办时间",
+      "targetDatePlaceholder": "例如：2026年第四季度 或 11月",
+      "budget": "预算范围",
+      "budgetPlaceholder": "请选择预算区间",
+      "budgetOptions": {
+        "tier1": "[ช่วงงบ] 50 万泰铢以内",
+        "tier2": "[ช่วงงบ] 50 万 - 100 万泰铢",
+        "tier3": "[ช่วงงบ] 100 万 - 200 万泰铢",
+        "tier4": "[ช่วงงบ] 200 万泰铢以上",
+        "undecided": "[ช่วงงบ] 待定 / 需评估"
+      },
+      "attendees": "预估参会人数",
+      "attendeesPlaceholder": "例如：50-100 人 或 300+ 人",
+      "details": "项目要求与详细说明",
+      "detailsPlaceholder": "请简要描述活动目标、受众群体或需要我们重点支持的工作板块...",
+      "pdpaNotice": "我同意根据以下条款收集与处理个人信息：",
+      "privacyLink": "隐私政策",
+      "submitButton": "提交活动需求",
+      "submitting": "正在提交...",
+      "successTitle": "活动需求提交成功！",
+      "successDescription": "非常感谢您的垂询。PR One 团队已收到您的需求，我们将尽快安排顾问与您联系并提供方案。",
+      "resetButton": "提交新的需求",
+      "errors": {
+        "fullName": "姓名至少需要 2 个字符",
+        "company": "请输入企业名称",
+        "email": "请输入有效的电子邮箱地址",
+        "phone": "请输入有效的联系电话",
+        "eventType": "请选择活动类型",
+        "pdpa": "请阅读并同意隐私政策条款",
+        "serverError": "提交失败，请稍后重试。"
+      }
+    }
   }
 }

@@ -214,5 +214,88 @@
         "ctaButton": "Contact Our Team Today"
       }
     }
+  },
+  "servicesPage": {
+    "eyebrow": "Our Capabilities",
+    "title": "Comprehensive Capabilities for Tech Event Success",
+    "description": "End-to-end strategic planning, executive media relations, and digital campaigns crafted for technology leaders.",
+    "itemsTitle": "Key Capabilities",
+    "relatedWorkTitle": "Related Case Studies",
+    "allServicesTitle": "Our 5 Core Services"
+  },
+  "aboutPage": {
+    "eyebrow": "About PR One",
+    "title": "Event & PR Partner for Enterprise Technology Brands",
+    "positioning": "Founded in 2004, PR One Network Co., Ltd. is Bangkok's premier tech event and PR agency. We bridge multinational enterprise technology innovators with executive decision-makers across Thailand through flawless, high-impact conferences and media campaigns.",
+    "historyEyebrow": "2004 – Present",
+    "historyTitle": "Over Two Decades of Enterprise Tech Trust",
+    "historyText": "Established in Bangkok in 2004 by seasoned communications and tech event veterans, PR One has evolved alongside the rapid growth of enterprise technology. We speak the language of tech, understand C-suite audiences, and deliver zero-defect execution on stage and in the press.",
+    "clientsEyebrow": "Trusted By",
+    "clientsTitle": "Global Tech Innovators Who Trust PR One",
+    "clientsDescription": "Proudly partnering with multinational technology leaders for their keynotes, summits, and media outreach.",
+    "teamEyebrow": "Our Team",
+    "teamTitle": "Our Dedicated Specialists",
+    "teamNotice": "[ทีมงานผู้เชี่ยวชาญ — ข้อมูลและภาพถ่ายผู้บริหารอยู่ระหว่างการจัดเตรียม]"
+  },
+  "contactPage": {
+    "eyebrow": "Contact Us",
+    "title": "Let's Plan Your Next High-Impact Tech Event",
+    "description": "Consult with PR One's event strategists to conceptualize, produce, and amplify your next enterprise gathering in Thailand.",
+    "quickChannels": {
+      "title": "Quick Channels",
+      "lineTitle": "LINE Official Account",
+      "lineAction": "Chat on LINE OA",
+      "phoneTitle": "Direct Phone",
+      "emailTitle": "General Inquiries"
+    },
+    "location": {
+      "title": "Bangkok Headquarters",
+      "openMaps": "Open in Google Maps"
+    },
+    "form": {
+      "title": "Event Brief Form",
+      "description": "Share your event requirements and timeline. Our team will review your brief and respond within 1 business day.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your full name",
+      "company": "Company / Organization",
+      "companyPlaceholder": "e.g. Acme Enterprise Corp.",
+      "email": "Business Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "08x-xxx-xxxx",
+      "eventType": "Event Format",
+      "eventTypePlaceholder": "Select event format",
+      "targetDate": "Target Date / Timeline",
+      "targetDatePlaceholder": "e.g. Q4 2026 or November 2026",
+      "budget": "Estimated Budget",
+      "budgetPlaceholder": "Select budget bracket",
+      "budgetOptions": {
+        "tier1": "[ช่วงงบ] Under 500,000 THB",
+        "tier2": "[ช่วงงบ] 500,000 - 1,000,000 THB",
+        "tier3": "[ช่วงงบ] 1,000,000 - 2,000,000 THB",
+        "tier4": "[ช่วงงบ] Above 2,000,000 THB",
+        "undecided": "[ช่วงงบ] To be determined"
+      },
+      "attendees": "Estimated Guest Count",
+      "attendeesPlaceholder": "e.g. 50-100 or 300+ attendees",
+      "details": "Project Scope & Requirements",
+      "detailsPlaceholder": "Tell us about your event objectives, target audience, or specific production needs...",
+      "pdpaNotice": "I consent to the collection and processing of my data in accordance with the",
+      "privacyLink": "Privacy Policy",
+      "submitButton": "Submit Event Brief",
+      "submitting": "Submitting Brief...",
+      "successTitle": "Brief Submitted Successfully!",
+      "successDescription": "Thank you for reaching out. Our event planning team has received your brief and will contact you shortly with an initial proposal.",
+      "resetButton": "Submit Another Brief",
+      "errors": {
+        "fullName": "Full name must be at least 2 characters",
+        "company": "Company name is required",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter a valid phone number",
+        "eventType": "Please select an event format",
+        "pdpa": "You must accept the Privacy Policy to proceed",
+        "serverError": "Failed to submit brief. Please try again."
+      }
+    }
   }
 }

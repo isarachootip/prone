@@ -214,5 +214,88 @@
         "ctaButton": "Jetzt Kontakt aufnehmen"
       }
     }
+  },
+  "servicesPage": {
+    "eyebrow": "Our Capabilities",
+    "title": "Umfassende Services für erfolgreiche Tech-Events",
+    "description": "Ganzheitliche Planung, Medienarbeit und zielgerichtete Marketingkampagnen für Technologieunternehmen.",
+    "itemsTitle": "Kernkompetenzen",
+    "relatedWorkTitle": "Zugehörige Fallstudien",
+    "allServicesTitle": "Unsere 5 Hauptbereiche"
+  },
+  "aboutPage": {
+    "eyebrow": "About PR One",
+    "title": "Event- und PR-Partner für führende Technologieunternehmen",
+    "positioning": "Seit der Gründung im Jahr 2004 ist PR One Network Co., Ltd. die führende Event- und PR-Agentur für Technologiemarken in Bangkok. Wir verbinden globale Innovationen mit Führungskräften in Thailand.",
+    "historyEyebrow": "2004 – Present",
+    "historyTitle": "Über zwei Jahrzehnte Vertrauen und Fachwissen",
+    "historyText": "Gegründet 2004 in Bangkok von Kommunikationsexperten, versteht PR One die Sprache der Tech-Branche und liefert höchste Qualität ohne Fehler.",
+    "clientsEyebrow": "Trusted By",
+    "clientsTitle": "Globale Technologiemarken vertrauen auf PR One",
+    "clientsDescription": "Stolzer Partner internationaler Marktführer bei Summits und Medienarbeit.",
+    "teamEyebrow": "Our Team",
+    "teamTitle": "Unser Expertenteam",
+    "teamNotice": "[ทีมงานผู้เชี่ยวชาญ — ข้อมูลและภาพถ่ายผู้บริหารอยู่ระหว่างการจัดเตรียม]"
+  },
+  "contactPage": {
+    "eyebrow": "Contact Us",
+    "title": "Planen Sie Ihr nächstes Tech-Event mit uns",
+    "description": "Lassen Sie sich von den Spezialisten von PR One beraten, um Ihr nächstes Firmenevent in Thailand erfolgreich umzusetzen.",
+    "quickChannels": {
+      "title": "Schnellkontakt",
+      "lineTitle": "LINE Official Account",
+      "lineAction": "Chat via LINE OA",
+      "phoneTitle": "Telefon",
+      "emailTitle": "E-Mail-Anfrage"
+    },
+    "location": {
+      "title": "Hauptsitz Bangkok",
+      "openMaps": "In Google Maps öffnen"
+    },
+    "form": {
+      "title": "Event-Briefing-Formular",
+      "description": "Teilen Sie uns Ihre Anforderungen mit. Unser Team meldet sich innerhalb eines Werktags bei Ihnen.",
+      "fullName": "Vor- und Nachname",
+      "fullNamePlaceholder": "Ihr vollständiger Name",
+      "company": "Unternehmen / Organisation",
+      "companyPlaceholder": "z.B. Acme Enterprise Corp.",
+      "email": "Geschäftliche E-Mail",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "08x-xxx-xxxx",
+      "eventType": "Veranstaltungsformat",
+      "eventTypePlaceholder": "Format auswählen",
+      "targetDate": "Geplanter Zeitraum",
+      "targetDatePlaceholder": "z.B. Q4 2026 oder November 2026",
+      "budget": "Geschätztes Budget",
+      "budgetPlaceholder": "Budgetrahmen auswählen",
+      "budgetOptions": {
+        "tier1": "[ช่วงงบ] Unter 500.000 THB",
+        "tier2": "[ช่วงงบ] 500.000 - 1.000.000 THB",
+        "tier3": "[ช่วงงบ] 1.000.000 - 2.000.000 THB",
+        "tier4": "[ช่วงงบ] Über 2.000.000 THB",
+        "undecided": "[ช่วงงบ] Noch offen"
+      },
+      "attendees": "Erwartete Teilnehmerzahl",
+      "attendeesPlaceholder": "z.B. 50-100 oder 300+ Gäste",
+      "details": "Projektbeschreibung & Anforderungen",
+      "detailsPlaceholder": "Beschreiben Sie Ziele, Zielgruppe oder spezielle Wünsche...",
+      "pdpaNotice": "Ich stimme der Datenverarbeitung gemäß der",
+      "privacyLink": "Datenschutzerklärung",
+      "submitButton": "Briefing absenden",
+      "submitting": "Wird übermittelt...",
+      "successTitle": "Briefing erfolgreich gesendet!",
+      "successDescription": "Vielen Dank. Unser Event-Team hat Ihre Anfrage erhalten und wird sich in Kürze mit einem Erstvorschlag melden.",
+      "resetButton": "Weitere Anfrage senden",
+      "errors": {
+        "fullName": "Name muss mindestens 2 Zeichen lang sein",
+        "company": "Unternehmensname ist erforderlich",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+        "eventType": "Bitte wählen Sie ein Format aus",
+        "pdpa": "Bitte akzeptieren Sie die Datenschutzerklärung",
+        "serverError": "Fehler beim Absenden. Bitte versuchen Sie es erneut."
+      }
+    }
   }
 }
