@@ -61,4 +61,42 @@ export const events: Event[] = [
     registerUrl: "[URL ลงทะเบียน]",
     status: "upcoming",
   },
+  {
+    slug: "cybersecurity-summit-2025",
+    title: {
+      th: "[ชื่ออีเวนต์ 2025]",
+      en: "[Past Event Title 2025]",
+    },
+    type: "summit",
+    date: "2025-08-14T09:00:00Z",
+    venue: {
+      th: "[สถานที่จัดงาน 2025]",
+      en: "[Event Venue 2025]",
+    },
+    client: "[ลูกค้า 2025]",
+    summary: {
+      th: "[สรุปรายละเอียดงานประชุมไซเบอร์ซีเคียวริตี้]",
+      en: "[Summary of past cybersecurity conference]",
+    },
+    status: "past",
+  },
+  {
+    slug: "ai-workplace-roadshow-2024",
+    title: {
+      th: "[ชื่ออีเวนต์ 2024]",
+      en: "[Past Event Title 2024]",
+    },
+    type: "roadshow",
+    date: "2024-05-10T09:00:00Z",
+    venue: {
+      th: "[สถานที่จัดงาน 2024]",
+      en: "[Event Venue 2024]",
+    },
+    client: "[ลูกค้า 2024]",
+    summary: {
+      th: "[สรุปรายละเอียดโรดโชว์ AI องค์กร]",
+      en: "[Summary of past enterprise AI roadshow]",
+    },
+    status: "past",
+  },
 ];

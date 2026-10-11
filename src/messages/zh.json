@@ -58,6 +58,56 @@
     "noEvents": "今年暂无计划中的活动。",
     "viewDetails": "查看详情"
   },
+  "eventsPage": {
+    "eyebrow": "活动盛会",
+    "title": "科技峰会与行业论坛日程",
+    "description": "了解由 PR One Network 联合举办的前沿科技峰会、行业论坛及产品发布会。",
+    "upcomingTitle": "即将举行的活动",
+    "pastTitle": "历届活动全景回顾",
+    "pastDescription": "自 2004 年以来的卓越足迹与精彩篇章。",
+    "emptyUpcoming": "该分类下暂无即将举行的活动。",
+    "registerButton": "立即报名参会",
+    "backToEvents": "返回活动列表",
+    "eventDetails": "活动概览",
+    "kickoffCountdown": "开幕倒计时"
+  },
+  "registration": {
+    "title": "注册参会名额",
+    "subtitle": "填写信息以锁定您的专属参会席位（名额有限）。",
+    "fullNameLabel": "姓名",
+    "fullNamePlaceholder": "例如：张三",
+    "companyLabel": "公司 / 机构",
+    "companyPlaceholder": "请输入您的公司名称",
+    "jobTitleLabel": "职位头衔",
+    "jobTitlePlaceholder": "例如：IT总监、CIO",
+    "emailLabel": "企业邮箱",
+    "emailPlaceholder": "name@company.com",
+    "phoneLabel": "联系电话",
+    "phonePlaceholder": "138-0000-0000",
+    "pdpaConsent": "我同意根据以下条款收集与使用我的个人信息：",
+    "privacyPolicyLink": "隐私政策",
+    "submitButton": "确认提交报名",
+    "submitting": "正在提交...",
+    "errors": {
+      "fullName": "请输入您的姓名（至少2个字符）",
+      "company": "请输入公司名称",
+      "jobTitle": "请输入您的职位",
+      "email": "请输入有效的企业邮箱地址",
+      "phone": "请输入有效的联系电话",
+      "pdpa": "您必须同意隐私政策条款",
+      "serverError": "提交过程中发生异常，请重试。"
+    },
+    "success": {
+      "title": "参会报名确认成功！",
+      "description": "我们已收到您的报名信息，参会确认函与现场指南将很快发送至您的邮箱。",
+      "calendarPrompt": "将活动添加至您的日历："
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "notice": "[隐私政策 — 待法律团队审核]",
+    "lastUpdated": "最后更新：[DD Mon 2026]"
+  },
   "caseStudy": {
     "featured": "精选案例",
     "viewAll": "查看全部案例",

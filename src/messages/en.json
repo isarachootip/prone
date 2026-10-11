@@ -58,6 +58,56 @@
     "noEvents": "No events scheduled for this year yet.",
     "viewDetails": "View Details"
   },
+  "eventsPage": {
+    "eyebrow": "Events & Summits",
+    "title": "Tech Events & Enterprise Summits",
+    "description": "Explore upcoming and past summits, seminars, and tech conferences hosted by PR One Network.",
+    "upcomingTitle": "Upcoming Events",
+    "pastTitle": "Event History & Timeline",
+    "pastDescription": "Tracing our track record and memorable summits from 2004 to today.",
+    "emptyUpcoming": "No upcoming events found for this category.",
+    "registerButton": "Register for Event",
+    "backToEvents": "Back to all events",
+    "eventDetails": "Event Overview",
+    "kickoffCountdown": "Countdown to Kickoff"
+  },
+  "registration": {
+    "title": "Register Your Attendance",
+    "subtitle": "Fill in your details to secure your pass (limited seating).",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "e.g. John Doe",
+    "companyLabel": "Company / Organization",
+    "companyPlaceholder": "e.g. Acme Corp",
+    "jobTitleLabel": "Job Title",
+    "jobTitlePlaceholder": "e.g. IT Director, CIO",
+    "emailLabel": "Work Email",
+    "emailPlaceholder": "name@company.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+66 81 234 5678",
+    "pdpaConsent": "I consent to the collection and processing of my data in accordance with the",
+    "privacyPolicyLink": "Privacy Policy",
+    "submitButton": "Confirm Registration",
+    "submitting": "Submitting...",
+    "errors": {
+      "fullName": "Please enter your full name (at least 2 characters)",
+      "company": "Please enter your company name",
+      "jobTitle": "Please enter your job title",
+      "email": "Please enter a valid work email address",
+      "phone": "Please enter a valid phone number",
+      "pdpa": "You must consent to the privacy policy",
+      "serverError": "An unexpected error occurred. Please try again."
+    },
+    "success": {
+      "title": "Registration Confirmed!",
+      "description": "We have received your registration details. A confirmation email with event itinerary and venue directions will be sent to you shortly.",
+      "calendarPrompt": "Save the date to your calendar:"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "notice": "[Privacy Policy — Pending Legal Review]",
+    "lastUpdated": "Last updated: [DD Mon 2026]"
+  },
   "caseStudy": {
     "featured": "Featured Work",
     "viewAll": "View All Case Studies",

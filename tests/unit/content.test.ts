@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   getUpcomingEvents,
   getEventsByYear,
+  getEventBySlug,
   getFeaturedCaseStudies,
   getCaseStudy,
   getAllCaseStudies,
@@ -41,6 +42,19 @@ describe("Content Model & Query Helpers", () => {
     it("returns empty array for years with no events", () => {
       const events1999 = getEventsByYear(1999);
       expect(events1999).toEqual([]);
+    });
+  });
+
+  describe("getEventBySlug", () => {
+    it("finds event by slug", () => {
+      const found = getEventBySlug("upcoming-tech-summit-2026");
+      expect(found).toBeDefined();
+      expect(found?.type).toBe("summit");
+    });
+
+    it("returns undefined for unknown slug", () => {
+      const notFound = getEventBySlug("non-existent-event-slug");
+      expect(notFound).toBeUndefined();
     });
   });
 

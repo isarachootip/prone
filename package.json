@@ -12,7 +12,7 @@
     "check:tokens": "node scripts/check-tokens.mjs src",
     "check": "pnpm lint && pnpm typecheck && pnpm check:tokens && pnpm build",
     "test": "vitest run",
-    "test:e2e": "playwright test tests/smoke.spec.ts",
+    "test:e2e": "playwright test tests/smoke.spec.ts tests/registration.spec.ts",
     "test:visual": "playwright test tests/visual",
     "test:visual:update": "playwright test tests/visual --update-snapshots",
     "seed": "tsx --env-file=.env.local src/payload/seed.ts"

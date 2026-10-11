@@ -58,6 +58,56 @@
     "noEvents": "Für dieses Jahr sind noch keine Veranstaltungen eingetragen.",
     "viewDetails": "Details anzeigen"
   },
+  "eventsPage": {
+    "eyebrow": "Events & Gipfel",
+    "title": "Technologie-Events & Unternehmensgipfel",
+    "description": "Entdecken Sie anstehende und vergangene Gipfeltreffen und Konferenzen von PR One Network.",
+    "upcomingTitle": "Kommende Veranstaltungen",
+    "pastTitle": "Veranstaltungshistorie & Zeitleiste",
+    "pastDescription": "Unsere Erfolgsgeschichte von 2004 bis heute.",
+    "emptyUpcoming": "Keine Veranstaltungen in dieser Kategorie gefunden.",
+    "registerButton": "Zur Veranstaltung anmelden",
+    "backToEvents": "Zurück zur Übersicht",
+    "eventDetails": "Veranstaltungsdetails",
+    "kickoffCountdown": "Countdown zum Start"
+  },
+  "registration": {
+    "title": "Teilnahme registrieren",
+    "subtitle": "Geben Sie Ihre Daten ein, um Ihren Platz zu sichern (begrenzte Plätze).",
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "z.B. Max Mustermann",
+    "companyLabel": "Unternehmen / Organisation",
+    "companyPlaceholder": "z.B. Musterfirma GmbH",
+    "jobTitleLabel": "Position",
+    "jobTitlePlaceholder": "z.B. IT-Leiter, CIO",
+    "emailLabel": "Geschäftliche E-Mail",
+    "emailPlaceholder": "name@firma.de",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "+49 30 123456",
+    "pdpaConsent": "Ich stimme der Erhebung und Verarbeitung meiner Daten gemäß der",
+    "privacyPolicyLink": "Datenschutzerklärung",
+    "submitButton": "Anmeldung bestätigen",
+    "submitting": "Wird verarbeitet...",
+    "errors": {
+      "fullName": "Bitte geben Sie Ihren vollständigen Namen ein (mind. 2 Zeichen)",
+      "company": "Bitte geben Sie den Unternehmensnamen an",
+      "jobTitle": "Bitte geben Sie Ihre Position an",
+      "email": "Bitte geben Sie eine gültige geschäftliche E-Mail-Adresse ein",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "pdpa": "Sie müssen der Datenschutzerklärung zustimmen",
+      "serverError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "success": {
+      "title": "Anmeldung bestätigt!",
+      "description": "Wir haben Ihre Anmeldung erhalten. Eine Bestätigungs-E-Mail mit weiteren Details wird Ihnen in Kürze zugesandt.",
+      "calendarPrompt": "Tragen Sie den Termin in Ihren Kalender ein:"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "notice": "[Datenschutzerklärung — Ausstehende rechtliche Prüfung]",
+    "lastUpdated": "Zuletzt aktualisiert: [DD Mon 2026]"
+  },
   "caseStudy": {
     "featured": "Ausgewählte Projekte",
     "viewAll": "Alle Fallstudien ansehen",

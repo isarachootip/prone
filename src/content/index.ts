@@ -22,6 +22,10 @@ export function getEventsByYear(year: number): Event[] {
   return events.filter((event) => new Date(event.date).getFullYear() === year);
 }
 
+export function getEventBySlug(slug: string): Event | undefined {
+  return events.find((event) => event.slug === slug);
+}
+
 export function getAllCaseStudies(): CaseStudy[] {
   return [...caseStudies].sort((a, b) => b.year - a.year);
 }
