@@ -11,6 +11,7 @@ import { Clients } from "./src/payload/collections/Clients";
 import { Events } from "./src/payload/collections/Events";
 import { CaseStudies } from "./src/payload/collections/CaseStudies";
 import { Services } from "./src/payload/collections/Services";
+import { Registrations } from "./src/payload/collections/Registrations";
 import { SiteSettings } from "./src/payload/globals/SiteSettings";
 
 const filename = fileURLToPath(import.meta.url);
@@ -23,7 +24,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Clients, Events, CaseStudies, Services],
+  collections: [Users, Media, Clients, Events, CaseStudies, Services, Registrations],
   globals: [SiteSettings],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "prone-cms-development-secret-key-32chars",
@@ -34,6 +35,7 @@ export default buildConfig({
     pool: {
       connectionString: process.env.DATABASE_URI || "",
     },
+    push: true,
   }),
   localization: {
     locales: ["th", "en", "de", "zh", "ar"],

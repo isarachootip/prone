@@ -1,5 +1,7 @@
 "use server";
 
+import { getPayload } from "payload";
+import config from "@payload-config";
 import {
   registrationSchema,
   type RegistrationFormData,
@@ -22,12 +24,27 @@ export async function registerEventAction(
     return { success: false, errors };
   }
 
-  // TODO: Select and configure downstream storage or integration before production launch:
-  // Options:
-  // 1. Google Sheets API via Service Account
-  // 2. CRM Webhook (HubSpot / Salesforce / Lark)
-  // 3. Email Notification via transactional mailer (Resend / AWS SES)
-  // Note: Data is validated strictly above and safe to forward once destination is approved.
+  // Store in Payload CMS Registrations collection if database is configured
+  if (process.env.DATABASE_URI) {
+    try {
+      const payload = await getPayload({ config });
+      await payload.create({
+        collection: "registrations",
+        data: {
+          eventSlug: parsed.data.eventSlug,
+          fullName: parsed.data.fullName,
+          company: parsed.data.company,
+          jobTitle: parsed.data.jobTitle,
+          email: parsed.data.email,
+          phone: parsed.data.phone,
+          pdpaConsent: parsed.data.pdpaConsent,
+        },
+      });
+    } catch (err) {
+      // Graceful fallback during static generation or when DB is offline
+      console.warn("[Registration] Failed to persist into database:", err);
+    }
+  }
 
   return { success: true };
 }

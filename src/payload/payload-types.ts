@@ -73,6 +73,7 @@ export interface Config {
     events: Event;
     'case-studies': CaseStudy;
     services: Service;
+    registrations: Registration;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -86,6 +87,7 @@ export interface Config {
     events: EventsSelect<false> | EventsSelect<true>;
     'case-studies': CaseStudiesSelect<false> | CaseStudiesSelect<true>;
     services: ServicesSelect<false> | ServicesSelect<true>;
+    registrations: RegistrationsSelect<false> | RegistrationsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -277,6 +279,24 @@ export interface Service {
   createdAt: string;
 }
 /**
+ * Event attendee registrations submitted via website
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "registrations".
+ */
+export interface Registration {
+  id: number;
+  eventSlug: string;
+  fullName: string;
+  company: string;
+  jobTitle: string;
+  email: string;
+  phone: string;
+  pdpaConsent: boolean;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
@@ -323,6 +343,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'services';
         value: string | Service;
+      } | null)
+    | ({
+        relationTo: 'registrations';
+        value: number | Registration;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -504,6 +528,21 @@ export interface ServicesSelect<T extends boolean = true> {
         text?: T;
         id?: T;
       };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "registrations_select".
+ */
+export interface RegistrationsSelect<T extends boolean = true> {
+  eventSlug?: T;
+  fullName?: T;
+  company?: T;
+  jobTitle?: T;
+  email?: T;
+  phone?: T;
+  pdpaConsent?: T;
   updatedAt?: T;
   createdAt?: T;
 }
