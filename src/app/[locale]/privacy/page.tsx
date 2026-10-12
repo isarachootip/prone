@@ -35,9 +35,10 @@ export default async function PrivacyPage({
 
   return (
     <div className="flex flex-col">
-      <main className="py-20 md:py-28">
+      <div className="py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-4 md:px-8 space-y-12">
           <SectionHeading
+            as="h1"
             eyebrow="Compliance & Legal"
             title={tPrivacy("title")}
           />
@@ -52,7 +53,7 @@ export default async function PrivacyPage({
             </p>
           </Card>
         </div>
-      </main>
+      </div>
 
       <ContactCTA />
     </div>

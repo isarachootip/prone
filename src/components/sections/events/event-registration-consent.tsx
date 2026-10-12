@@ -42,6 +42,7 @@ export function EventRegistrationConsent({
           <Link
             href="/privacy"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-primary hover:underline underline-offset-4 font-medium"
           >
             {t("privacyPolicyLink")}

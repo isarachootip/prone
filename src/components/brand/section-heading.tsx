@@ -9,6 +9,7 @@ interface SectionHeadingProps
   description?: React.ReactNode;
   align?: "left" | "center";
   action?: React.ReactNode;
+  as?: "h1" | "h2" | "h3";
 }
 
 export function SectionHeading({
@@ -17,6 +18,7 @@ export function SectionHeading({
   description,
   align = "left",
   action,
+  as: Component = "h2",
   className,
   ...props
 }: SectionHeadingProps) {
@@ -33,9 +35,16 @@ export function SectionHeading({
     >
       <div className={cn("space-y-2", isCenter && "max-w-2xl mx-auto")}>
         {eyebrow && <Eyebrow hasDot>{eyebrow}</Eyebrow>}
-        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-foreground">
+        <Component
+          className={cn(
+            "font-display font-bold tracking-tight text-foreground",
+            Component === "h1"
+              ? "text-3xl sm:text-4xl md:text-5xl"
+              : "text-2xl sm:text-3xl md:text-4xl"
+          )}
+        >
           {title}
-        </h2>
+        </Component>
         {description && (
           <p className="text-foreground-soft text-sm sm:text-base max-w-2xl leading-relaxed">
             {description}

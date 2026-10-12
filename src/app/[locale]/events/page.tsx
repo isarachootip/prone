@@ -36,11 +36,12 @@ export default async function EventsPage({
 
   return (
     <div className="flex flex-col">
-      <main className="py-20 md:py-28">
+      <div className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 md:px-8 space-y-20 md:space-y-28">
           {/* Section 1: Upcoming Events Hub */}
           <section className="space-y-12">
             <SectionHeading
+              as="h1"
               eyebrow={tEvents("eyebrow")}
               title={tEvents("upcomingTitle")}
               description={tEvents("description")}
@@ -58,7 +59,7 @@ export default async function EventsPage({
             <YearTimeline events={events} startYear={2004} endYear={2027} defaultYear={2026} />
           </section>
         </div>
-      </main>
+      </div>
 
       <ContactCTA />
     </div>

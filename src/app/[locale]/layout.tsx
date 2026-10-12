@@ -58,6 +58,7 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const tCommon = await getTranslations({ locale, namespace: "common" });
 
   return (
     <html
@@ -67,8 +68,16 @@ export default async function LocaleLayout({
     >
       <body className="min-h-screen flex flex-col bg-background text-foreground">
         <NextIntlClientProvider messages={messages}>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-full focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-ring font-mono text-xs uppercase tracking-wider font-semibold"
+          >
+            {tCommon("skipToContent")}
+          </a>
           <SiteHeader />
-          <main className="flex-1">{children}</main>
+          <main id="main-content" className="flex-1 outline-none" tabIndex={-1}>
+            {children}
+          </main>
           <SiteFooter config={siteConfig} />
         </NextIntlClientProvider>
       </body>

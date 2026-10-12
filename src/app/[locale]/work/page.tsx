@@ -36,9 +36,10 @@ export default async function WorkPage({
 
   return (
     <div className="flex flex-col">
-      <main className="py-20 md:py-28">
+      <div className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 md:px-8 space-y-12 md:space-y-16">
           <SectionHeading
+            as="h1"
             eyebrow={tWork("eyebrow")}
             title={tWork("title")}
             description={tWork("description")}
@@ -46,7 +47,7 @@ export default async function WorkPage({
 
           <WorkListingView caseStudies={caseStudies} />
         </div>
-      </main>
+      </div>
 
       <ContactCTA />
     </div>

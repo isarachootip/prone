@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import {
   EventTypeBadge,
   Countdown,
+  AddToCalendar,
   NextEventCard,
   EventCard,
   EventFilter,
@@ -60,6 +61,24 @@ export function BrandEventsShowcase() {
             <span className="text-xs text-muted-foreground font-mono">Inline:</span>
             <Countdown targetDate="2026-11-15T09:00:00Z" variant="inline" />
           </div>
+        </div>
+      </div>
+
+      {/* 7b. AddToCalendar */}
+      <div className="p-5 rounded-xl border border-border bg-card space-y-3">
+        <span className="font-mono text-xs text-muted-foreground uppercase">
+          7b. AddToCalendar (Google / Apple / Outlook Dropdown)
+        </span>
+        <div className="flex flex-wrap items-center gap-4">
+          <AddToCalendar
+            event={{
+              title: sampleEvent.title.th,
+              date: sampleEvent.date,
+              venue: sampleEvent.venue.th,
+              summary: sampleEvent.summary.th,
+              slug: sampleEvent.slug,
+            }}
+          />
         </div>
       </div>
 

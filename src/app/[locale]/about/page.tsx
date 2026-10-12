@@ -39,7 +39,7 @@ export default async function AboutPage({
 
   return (
     <div className="flex flex-col">
-      <main className="py-20 md:py-28">
+      <div className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 md:px-8 space-y-20 md:space-y-28">
           <AboutHero
             eyebrow={tAbout("eyebrow")}
@@ -67,7 +67,7 @@ export default async function AboutPage({
             notice={tAbout("teamNotice")}
           />
         </div>
-      </main>
+      </div>
 
       <ContactCTA />
     </div>

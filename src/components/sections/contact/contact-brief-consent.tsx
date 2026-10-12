@@ -42,6 +42,7 @@ export function ContactBriefConsent({
           <Link
             href="/privacy"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-primary hover:underline underline-offset-4 font-medium"
           >
             {t("privacyLink")}

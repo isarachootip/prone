@@ -36,9 +36,10 @@ export default async function ContactPage({
   const tContact = await getTranslations({ locale, namespace: "contactPage" });
 
   return (
-    <main className="py-20 md:py-28">
+    <div className="py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-4 md:px-8 space-y-16">
         <SectionHeading
+          as="h1"
           eyebrow={tContact("eyebrow")}
           title={tContact("title")}
           description={tContact("description")}
@@ -68,6 +69,6 @@ export default async function ContactPage({
           </section>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

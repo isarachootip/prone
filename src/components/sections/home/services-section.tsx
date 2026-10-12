@@ -56,7 +56,7 @@ export function ServicesSection({ services, className, ...props }: ServicesSecti
                 <ul className="space-y-2 border-t border-border pt-4 text-xs font-sans text-muted-foreground">
                   {items.map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2">
-                      <Check className="size-3.5 text-primary shrink-0 mt-0.5" />
+                      <Check className="size-3.5 text-foreground-soft shrink-0 mt-0.5" />
                       <span>{item}</span>
                     </li>
                   ))}
