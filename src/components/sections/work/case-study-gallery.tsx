@@ -75,6 +75,7 @@ export function CaseStudyGallery({ gallery, title, client }: CaseStudyGalleryPro
               src={imgSrc}
               alt={`${client} - ${title} photo ${index + 1}`}
               fill
+              sizes="(max-width: 768px) 50vw, 25vw"
               className="object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -99,6 +100,7 @@ export function CaseStudyGallery({ gallery, title, client }: CaseStudyGalleryPro
               src={images[activeIndex]}
               alt={`${client} - ${title} active photo`}
               fill
+              sizes="(max-width: 1200px) 100vw, 1200px"
               className="object-contain"
               priority
             />

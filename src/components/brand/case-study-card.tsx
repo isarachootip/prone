@@ -11,9 +11,10 @@ import { StatNumber } from "./stat-number";
 
 export interface CaseStudyCardProps extends React.ComponentProps<typeof Card> {
   caseStudy: CaseStudy;
+  priority?: boolean;
 }
 
-export function CaseStudyCard({ caseStudy, className, ...props }: CaseStudyCardProps) {
+export function CaseStudyCard({ caseStudy, priority = false, className, ...props }: CaseStudyCardProps) {
   const locale = useLocale() as "th" | "en" | "de" | "zh" | "ar";
   const coverImage = caseStudy.gallery?.[0];
   const featuredResults = (caseStudy.results || []).slice(0, 2);
@@ -28,6 +29,8 @@ export function CaseStudyCard({ caseStudy, className, ...props }: CaseStudyCardP
               src={coverImage}
               alt={caseStudy.title}
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority={priority}
               className="object-cover transition-transform duration-300 group-hover/study:scale-105"
             />
           ) : (

@@ -39,8 +39,8 @@ export function FeaturedWorkSection({
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {caseStudies.map((cs) => (
-          <CaseStudyCard key={cs.slug} caseStudy={cs} />
+        {caseStudies.map((cs, idx) => (
+          <CaseStudyCard key={cs.slug} caseStudy={cs} priority={idx === 0} />
         ))}
       </div>
     </section>

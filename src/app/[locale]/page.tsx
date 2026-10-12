@@ -18,6 +18,8 @@ import {
   services,
   siteConfig,
 } from "@/content";
+import { createLocalizedAlternates } from "@/lib/seo";
+import { generateOrganizationJsonLd, JsonLd } from "@/lib/json-ld";
 
 export async function generateMetadata({
   params,
@@ -31,6 +33,7 @@ export async function generateMetadata({
   return {
     title: `${tMeta("siteName")} — ${tHero("titleLine1")} ${tHero("titleLine2")}`,
     description: tHero("description"),
+    alternates: createLocalizedAlternates(locale, ""),
   };
 }
 
@@ -49,6 +52,8 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col min-h-screen">
+      <JsonLd data={generateOrganizationJsonLd()} />
+
       {/* 1. Hero */}
       <HeroSection nextEvent={upcomingEvents[0]} />
 

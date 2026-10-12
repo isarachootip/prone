@@ -7,6 +7,8 @@ import {
   ContactBriefForm,
 } from "@/components/sections/contact";
 
+import { createLocalizedAlternates } from "@/lib/seo";
+
 export async function generateMetadata({
   params,
 }: {
@@ -19,6 +21,7 @@ export async function generateMetadata({
   return {
     title: `${tContact("title")} | ${tMeta("siteName")}`,
     description: tContact("description"),
+    alternates: createLocalizedAlternates(locale, "/contact"),
   };
 }
 

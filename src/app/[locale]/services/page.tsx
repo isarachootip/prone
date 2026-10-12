@@ -5,6 +5,8 @@ import { SectionHeading } from "@/components/brand/section-heading";
 import { ServicesList } from "@/components/sections/services";
 import { ContactCTA } from "@/components/sections/home";
 
+import { createLocalizedAlternates } from "@/lib/seo";
+
 export async function generateMetadata({
   params,
 }: {
@@ -17,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${tServices("title")} | ${tMeta("siteName")}`,
     description: tServices("description"),
+    alternates: createLocalizedAlternates(locale, "/services"),
   };
 }
 

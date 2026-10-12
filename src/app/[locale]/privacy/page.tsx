@@ -5,6 +5,8 @@ import { SectionHeading } from "@/components/brand/section-heading";
 import { Card } from "@/components/ui/card";
 import { ContactCTA } from "@/components/sections/home";
 
+import { createLocalizedAlternates } from "@/lib/seo";
+
 export async function generateMetadata({
   params,
 }: {
@@ -17,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${tPrivacy("title")} | ${tMeta("siteName")}`,
     description: tPrivacy("title"),
+    alternates: createLocalizedAlternates(locale, "/privacy"),
   };
 }
 

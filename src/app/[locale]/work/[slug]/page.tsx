@@ -10,6 +10,8 @@ import {
   RelatedCaseStudies,
 } from "@/components/sections/work";
 import { ContactCTA } from "@/components/sections/home";
+import { getSiteUrl, createLocalizedAlternates } from "@/lib/seo";
+import { generateBreadcrumbJsonLd, JsonLd } from "@/lib/json-ld";
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -38,6 +40,7 @@ export async function generateMetadata({
   return {
     title: `${caseStudy.title} (${caseStudy.client}) | ${tMeta("siteName")}`,
     description: `${caseStudy.title} - ${desc}`,
+    alternates: createLocalizedAlternates(locale, `/work/${slug}`),
     openGraph: {
       title: `${caseStudy.title} (${caseStudy.client}) | ${tMeta("siteName")}`,
       description: desc,
@@ -67,9 +70,16 @@ export default async function CaseStudyDetailPage({
   }
 
   const related = getRelatedCaseStudies(caseStudy.slug, 2);
+  const siteUrl = getSiteUrl();
+  const breadcrumbItems = [
+    { name: "PR One", url: `${siteUrl}/${locale}` },
+    { name: "Work", url: `${siteUrl}/${locale}/work` },
+    { name: caseStudy.title, url: `${siteUrl}/${locale}/work/${slug}` },
+  ];
 
   return (
     <div className="flex flex-col">
+      <JsonLd data={generateBreadcrumbJsonLd(breadcrumbItems)} />
       <main className="py-16 md:py-24">
         <article className="max-w-5xl mx-auto px-4 md:px-8 space-y-16 md:space-y-20">
           <CaseStudyHeader caseStudy={caseStudy} />

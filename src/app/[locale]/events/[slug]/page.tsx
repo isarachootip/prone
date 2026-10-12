@@ -8,6 +8,8 @@ import {
   EventRegistrationForm,
 } from "@/components/sections/events";
 import { ContactCTA } from "@/components/sections/home";
+import { createLocalizedAlternates } from "@/lib/seo";
+import { generateEventJsonLd, JsonLd } from "@/lib/json-ld";
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -36,6 +38,7 @@ export async function generateMetadata({
   return {
     title: `${title} | ${tMeta("siteName")}`,
     description: `${title} (${event.client}) — ${summary}`,
+    alternates: createLocalizedAlternates(locale, `/events/${slug}`),
   };
 }
 
@@ -59,6 +62,7 @@ export default async function EventDetailPage({
 
   return (
     <div className="flex flex-col">
+      <JsonLd data={generateEventJsonLd(event, loc)} />
       <main className="py-16 md:py-24">
         <article className="max-w-4xl mx-auto px-4 md:px-8 space-y-16">
           <EventHeader event={event} />

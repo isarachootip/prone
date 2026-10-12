@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { fontClassNames } from "@/app/fonts";
 import { SiteHeader, SiteFooter } from "@/components/brand";
 import { siteConfig } from "@/content/site";
+import { getSiteUrl, createLocalizedAlternates } from "@/lib/seo";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -22,9 +23,24 @@ export async function generateMetadata({
     return {};
   }
   const t = await getTranslations({ locale, namespace: "meta" });
+  const siteUrl = getSiteUrl();
+
   return {
-    title: t("siteName"),
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: t("siteName"),
+      template: `%s | ${t("siteName")}`,
+    },
     description: t("tagline"),
+    alternates: createLocalizedAlternates(locale),
+    openGraph: {
+      type: "website",
+      siteName: t("siteName"),
+      locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+    },
   };
 }
 
