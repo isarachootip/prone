@@ -7,8 +7,8 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 # 2. Dependencies installation stage
 FROM base AS deps
 WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --frozen-lockfile
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml* ./
+RUN pnpm install --frozen-lockfile || (pnpm approve-builds --all && pnpm install --frozen-lockfile)
 
 # 3. Build stage
 FROM base AS builder
@@ -18,10 +18,6 @@ COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
-
-# Build-time environment variable defaults for prerendering
-ENV DATABASE_URI="postgresql://postgres:postgres@localhost:5432/pronedb"
-ENV PAYLOAD_SECRET="build-time-secret-key-32-chars-minimum-safe-placeholder"
 ENV NEXT_PUBLIC_SITE_URL="https://prone.network"
 
 RUN pnpm build
